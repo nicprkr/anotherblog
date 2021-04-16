@@ -66,6 +66,7 @@ export const globals = css.global`
     font-family: monospace;
     background: var(--light-grey);
     padding: var(--space);
+    overflow-x: auto;
   }
   .blog-main h1,
   .blog-main .h1,
