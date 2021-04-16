@@ -66,7 +66,7 @@ export async function getStaticPaths() {
   const documents = await queryRepeatableDocuments((doc) => doc.type === 'post')
   return {
     paths: documents.map(doc => `/blog/${doc.uid}`),
-    fallback: false,
+    fallback: true,
   }
 }
 
