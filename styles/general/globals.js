@@ -119,6 +119,7 @@ export const globals = css.global`
   }
   p {
     margin-bottom: calc(var(--space) * 2);
+    letter-spacing: 0.25px;
   }
   pre,
   ul,
