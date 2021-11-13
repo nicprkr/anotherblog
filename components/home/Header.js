@@ -12,8 +12,8 @@ const Header = ({ image, headline, description, description_desc }) => {
     <div className="home">
       <div className="blog-avatar" style={{ backgroundImage: `url(${image.url})` }} />
       <h1 className="blog-title">{RichText.asText(headline)}</h1>
-      {/* <p>{RichText.asText(description_desc)}</p>  */}
-      <p className="blog-description">I'm a Salesforce and web developer based out of Vancouver, B.C. Here are some thoughts I have about books and code and stuff.</p>
+      <p>{RichText.asText(description_desc)}</p> 
+     
       <p className="blog-description">      
         <NextLink
           as={linkResolver(description)}
